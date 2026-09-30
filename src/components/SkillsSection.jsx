@@ -24,11 +24,11 @@ export default function SkillsSection() {
         </div>
         <div>
           <h3 className="text-sm font-medium text-stone-500">Tools</h3>
-          <div class="mt-3 flex flex-wrap gap-2">
-            <span class="rounded-full border border-stone-300 px-3 py-1 text-sm">Git</span>
-            <span class="rounded-full border border-stone-300 px-3 py-1 text-sm">VS Code</span>
-            <span class="rounded-full border border-stone-300 px-3 py-1 text-sm">MySQL</span>
-            <span class="rounded-full border border-stone-300 px-3 py-1 text-sm">Figma</span>
+          <div className="mt-3 flex flex-wrap gap-2">
+            <span className="rounded-full border border-stone-300 px-3 py-1 text-sm">Git</span>
+            <span className="rounded-full border border-stone-300 px-3 py-1 text-sm">VS Code</span>
+            <span className="rounded-full border border-stone-300 px-3 py-1 text-sm">MySQL</span>
+            <span className="rounded-full border border-stone-300 px-3 py-1 text-sm">Figma</span>
           </div>
         </div>
       </div>

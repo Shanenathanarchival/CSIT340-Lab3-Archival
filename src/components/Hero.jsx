@@ -10,6 +10,6 @@ export default function Hero() {
             <a href="#projects" className="rounded-lg bg-stone-900 px-5 py-2.5 text-sm font-medium text-white hover:bg-stone-700">See my projects</a>
             <a href="#contact" className="rounded-lg border border-stone-300 px-5 py-2.5 text-sm font-medium hover:bg-stone-50">Contact me</a>
         </div>
-  </header>
+    </header>
   );
 }

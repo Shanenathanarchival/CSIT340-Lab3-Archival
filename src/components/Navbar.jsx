@@ -13,6 +13,6 @@ export default function Navbar() {
                 <NavLink href="#contact" className="hover:text-stone-900" label="Contact" />
             </div>
         </div>
-  </nav>
+    </nav>
   );
 }
