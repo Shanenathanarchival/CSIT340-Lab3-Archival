@@ -6,13 +6,13 @@ export default function Navbar() {
         <div className="max-w-4xl mx-auto px-6 h-16 flex items-center justify-between">
             <a href="#top" className="font-semibold">Shane Nathan B. Archival</a>
             <div className="flex gap-6 text-sm text-stone-600">
-                <NavLink href="#about" className="hover:text-stone-900" label="About" />
-                <NavLink href="#skills" className="hover:text-stone-900" label="Skills" />
-                <NavLink href="#projects" className="hover:text-stone-900" label="Projects" />
-                <NavLink href="#experience" className="hover:text-stone-900" label="Experience" />
-                <NavLink href="#contact" className="hover:text-stone-900" label="Contact" />
+                <NavLink href="#about" className="hover:text-stone-900" label="About Me" />
+                <NavLink href="#skills" className="hover:text-stone-900" label="My Skills" />
+                <NavLink href="#projects" className="hover:text-stone-900" label="My Projects" />
+                <NavLink href="#experience" className="hover:text-stone-900" label="My Experience" />
+                <NavLink href="#contact" className="hover:text-stone-900" label="Contact Me" />
             </div>
         </div>
-  </nav>
+    </nav>
   );
 }
