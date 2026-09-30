@@ -1,4 +1,5 @@
 import SectionHeading from "./SectionHeading";
+import SkillTag from "./SkillTag";
 
 export default function SkillsSection() {
     return(
@@ -8,27 +9,30 @@ export default function SkillsSection() {
         <div>
           <h3 className="text-sm font-medium text-stone-500">Languages</h3>
           <div className="mt-3 flex flex-wrap gap-2">
-            <span className="rounded-full border border-stone-300 px-3 py-1 text-sm">HTML</span>
-            <span className="rounded-full border border-stone-300 px-3 py-1 text-sm">CSS</span>
-            <span className="rounded-full border border-stone-300 px-3 py-1 text-sm">JavaScript</span>
-            <span className="rounded-full border border-stone-300 px-3 py-1 text-sm">Java</span>
+            <SkillTag name="HTML"/>
+            <SkillTag name="CSS"/>
+            <SkillTag name="JavaScript"/>
+            <SkillTag name="Java"/>
+            <SkillTag name="Kotlin"/>
+            <SkillTag name="MySql"/>
+            <SkillTag name="C++"/>
           </div>
         </div>
         <div>
           <h3 className="text-sm font-medium text-stone-500">Frameworks</h3>
           <div className="mt-3 flex flex-wrap gap-2">
-            <span className="rounded-full border border-stone-300 px-3 py-1 text-sm">React</span>
-            <span className="rounded-full border border-stone-300 px-3 py-1 text-sm">Tailwind CSS</span>
-            <span className="rounded-full border border-stone-300 px-3 py-1 text-sm">Bootstrap</span>
+            <SkillTag name="React"/>
+            <SkillTag name="Tailwind CSS"/>
+            <SkillTag name="Bootstrap"/>
           </div>
         </div>
         <div>
           <h3 className="text-sm font-medium text-stone-500">Tools</h3>
           <div className="mt-3 flex flex-wrap gap-2">
-            <span className="rounded-full border border-stone-300 px-3 py-1 text-sm">Git</span>
-            <span className="rounded-full border border-stone-300 px-3 py-1 text-sm">VS Code</span>
-            <span className="rounded-full border border-stone-300 px-3 py-1 text-sm">MySQL</span>
-            <span className="rounded-full border border-stone-300 px-3 py-1 text-sm">Figma</span>
+            <SkillTag name="Git"/>
+            <SkillTag name="VS Code"/>
+            <SkillTag name="MySQL"/>
+            <SkillTag name="Figma"/>
           </div>
         </div>
       </div>

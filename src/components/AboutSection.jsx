@@ -5,9 +5,8 @@ export default function AboutSection() {
     <section id="about" className="max-w-4xl mx-auto px-6 py-16 border-t border-stone-200 scroll-mt-16">
       <SectionHeading h2_text="About" p_text="A little about who I am."/>
       <p className="mt-6 max-w-2xl leading-relaxed text-stone-700">
-        I grew up in Talisay and moved to Cebu City for college. I picked IT because I
-        wanted to build things people actually open. So far my favorite part is the moment
-        something finally runs.
+        I grew up in Cebu and now studying in Cebu Institue of Technology - University. I picked IT because I
+        wanted to create a game or become a game developer in the future, While doing my job which would either be a network engineer or cybersecurity.
       </p>
       <dl className="mt-8 grid grid-cols-2 gap-6 sm:grid-cols-4">
         <div>
@@ -16,7 +15,7 @@ export default function AboutSection() {
         </div>
         <div>
           <dt className="text-sm text-stone-500">Year level</dt>
-          <dd className="mt-1 font-medium">Third year</dd>
+          <dd className="mt-1 font-medium">Fourth year</dd>
         </div>
         <div>
           <dt className="text-sm text-stone-500">School</dt>

@@ -7,15 +7,11 @@ export default function ContactSection() {
       <ul className="mt-8 space-y-3">
         <li>
           <span className="inline-block w-24 text-sm text-stone-500">Email</span>
-          <a href="mailto:juan.delacruz@cit.edu" className="font-medium hover:underline">juan.delacruz@cit.edu</a>
+          <a href="mailto:juan.delacruz@cit.edu" className="font-medium hover:underline">shanenathan.archival@cit.edu</a>
         </li>
         <li>
           <span className="inline-block w-24 text-sm text-stone-500">GitHub</span>
-          <a href="https://github.com/juandelacruz" className="font-medium hover:underline">github.com/juandelacruz</a>
-        </li>
-        <li>
-          <span className="inline-block w-24 text-sm text-stone-500">LinkedIn</span>
-          <a href="https://linkedin.com/in/juandelacruz" className="font-medium hover:underline">linkedin.com/in/juandelacruz</a>
+          <a href="https://github.com/juandelacruz" className="font-medium hover:underline">github.com/shanenathanarchival</a>
         </li>
       </ul>
     </section>
